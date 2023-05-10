@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera vez en HTML</title>
+    <meta name="description" content="Esta es una pagina web desarrollada por un novato en HTML">
+    <meta name= "author" content="Santino Rubatti">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo Mi Primera Página Web.png" type="icon">
+</head> 
+<body>
+<header>
+    <div id="inicio">
+    <h1>Hola, soy Santino Rubatti y este es mi primer HTML</h1>
+<p> Hace exactamente tres días empecé a estudiar <abbr title="Hypertext Markup Lenguage">HTML</abbr> y hoy me veo lo suficientemente preparado para hacer mi propio sitio web.</p>   
+</div>
+<hr>
+</header>
+
+<p> Temas:</p>
+
+<ul>
+   
+    <nav>
+        <a href="#1"> <li><p>¿Por qué empecé a estudiar HTML?</p></li></a>
+        <a href="#2"><li><p>Proyectos a Futuro</p></li></a>
+        <a href="#3"><li><p>Informática-4to ECO</p></li></a>
+        <a href="#4"><li><p>Contame sobre vos</p></li></a>
+        <a href="#5"><li><p>Tu Opinión</p></li></a>
+        <a href="#6"><li><p>Mi experiencia creando este Sitio Web</p></li></a>
+        <a href="#7"><li><p>Agradecimiento Especial</p></li></a>
+</ul>
+   
+</nav>  
+
+<hr>
+<main>
+<h2>
+    <section id="1"></section>
+    <div id="estudiarhtml">
+<p> <strong>¿Por qué empecé a estudiar HTML?</p></strong>
+</h2>
+<div id="estudiarhtmlp">
+<p><strong>Hace un año me empezó a generar curiosidad el mundo de la informática y de la programación hasta que, hace poco, me decidí por mi mismo a estudiar programación de manera autodidacta.
+    Debido a recomendaciones comencé con HTML, además, me pareció lo más simple para una persona sin conocimientos previos sobre el tema. Más allá de que HTML no sea un lenguaje de programación en sí, sirve para adquirir el pensamiento de programador y la creación de páginas web es una buena manera de entrar en este mundo.
+</strong></p>
+
+<figure>
+
+<img src="pibe estudiando en la compu.jpg" width="640" height="360" loading="lazy" id="pibe">
+<figcaption> ¿Soy al único al que le parece gracioso este niño?</figcaption>
+</div>
+</figure>
+</div>
+<hr>
+
+
+<section id="2"></section>
+<div id="datos">
+    <details>   
+    <summary>¿Sabías que...</summary>
+    El primer programador fue una mujer llamada  Ada Lovelece, quién planteó la idea de una máquina universal programable en el año 1845. Creó el primer algoritmo informático, pero como en su época todavía no existían las computadoras dejó todo escrito en papel. Años más tarde con la invención de la primera máquina analítica (computadora creada por Charles Babbage) se pusieron a prueba sus notas y se dieron cuenta que si funcionaban. para saber más información sobre ella <a href="https://es.wikipedia.org/wiki/Ada_Lovelace" target="_blank">entra aquí</a>.
+    </details>
+    </div>
+<h2>Proyectos a Futuro</h2>
+<h3>En mayor o menor plazo de tiempo tengo planeado estudiar:</h3>
+<dl>
+<dt><strong>CSS</strong></dt> <dd>Quiero ampliar mi conocimiento, no sé más que lo básico</dd>
+<br>
+<dt><strong>Python</strong></dt> <dd>Me parece lo mejor para empezar con programación, un lenguaje <br>fácil de comprender, perfecto para un novato como yo.</dd>
+<br>
+<dt><strong>JavaScript</strong></dt> <dd>Antiguo pero útil, estaría bueno saber usarlo<br>para poder hacer más interactiva la página.</dd>
+<br>
+<dt><strong>Git</strong></dt> <dd>Estuve viendo sobre este software, tengo<br> que terminar de aprender a usarlo ya que<br> me va a ser muy útil de cara a un futuro.</dd>
+<br>
+<dt><strong>Ciberseguridad</strong></dt> <dd>Es una planificación para un futuro más lejano,<br>en un principio me gustaría empezar a estudiarlo<br> por hobbie pero no descarto le que pueda ser un trabajo también.</dd>
+</dl>
+
+
+<hr>
+<section id="3">
+<h2>Informática</h2>
+<p><strong>Esta página, aunque sea simple, es un proyecto personal. Pero también va a ser entregado como trabajo para la materia de informática, desde ya gracias por dejarme entregar esto que no respeta las consignas.</strong></p>
+</section> 
+<hr><section id="4"></section>
+<div id="contame">
+
+<h2>Contame sobre vos</h2>
+<h4>¿Quién lee mi página?</h4>
+<p></p>
+<form  action="https://formsubmit.co/krawabusiness@gmail.com" autofocus="on" method="post">
+<label for="Nombre"  id="contame">Nombre&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="Nombre" placeholder="Bryan" autocomplete="on">
+</section>
+<br> <br>
+
+<label id="contame" for="Apellido">Apellido&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="Apellido" placeholder="Rodriguez" autocomplete="on" required>
+<br> <br>
+
+<label for="Edad"  id="contame">Edad&nbsp;&nbsp;&nbsp;</label>
+<input type="number" id="edad"  min="1" max="99" placeholder="20" required>
+<br> <br>
+
+<label for="Comida Favorita"  id="contame">Comida Favorita&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="Comida Favorita" placeholder="Pizza" required>
+<br> <br>
+
+<label for="Animal Favorito"  id="contame">Animal Favorito&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="Animal Favorito" placeholder="Perro" required>
+<br><br><br>
+<button id="reset" type="reset" formaction="reset" id="borrar">Borrar</button> <button id="enviar" type="submit" value="Enviar" id="enviar">Enviar</button>
+</form></div>
+<br>
+
+<hr>
+<section id="5"></section>
+<h2>Tu Opinión</h2>
+Me gustaría saber tu opinión sobre mi página, podes dejarme algún comentario <a href="Reseña.html" target="_blank">acá</a>
+
+<hr> <img src="image44.png" id="error-img" loading="lazy">
+<section id="6"></section>
+<h2>Mi experiencia creando este Sitio Web</h2> 
+<p><strong>Me gustó mucho crear esta página web, a la hora de hacerla me encontré con muchos obstáculos, errores y cosas que me dificultaron hacerla, pero con tiempo y práctica pude hacer algo con lo que estoy satisfecho. No diría que estoy orgulloso, hay mucho que todavía no sé y me hubiese haber podido agregar más cosas a esta página. Pero para ser la primera vez supongo que no está mal, lo más importante fue todo lo que aprendí en el proceso.</strong></p> 
+
+<section id="7"></section>
+</main>
+<footer>
+<hr>
+<h3>Agradecimiento Especial</h3>
+<p><strong>Esta sección la quiero dedicar para agradecerle a <mark>Máximo Escalante Rojas</mark> por hacerme iniciar en este mundo, motivarme, brindarme información y ayudarme. Sin él nada de esto hubiese sido posible. </strong></p>
+<hr>
+<br>Si querés contactarme lo podés hacer mediante mi instagram <a href="https://www.instagram.com/s.rubatti/?next=%2F" target="_blank">"@s.rubatti"</a> o vía mail a "krawabusiness@gmail.com".
+<br><br>&lt;&lt;&lt; &copy;Santino N. Rubatti &gt;&gt;&gt; 
+</footer>
+<hr>
+</html>
+
