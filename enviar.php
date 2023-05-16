@@ -1,6 +1,6 @@
 <?php
-$name = $_POST['Nombre'];
-$name2 = $_POST['Apellido'];
+$Nombre = $_POST['Nombre'];
+$Apellido = $_POST['Apellido'];
 $Edad = $_POST['Edad']
 $ComidaFavorita = $_POST['Comida Favorita']
 $AnimalFavorito = $_POST['Animal Favorito']
@@ -11,7 +11,7 @@ $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
-$message = "Este mensaje fue enviado por: " . $name . " " . $name2 . " \r\n";
+$message = "Este mensaje fue enviado por: " . $Nombre . " " . $Apellido . " \r\n";
 $message .= "Su e-mail es: " . $mail . " \r\n";
 $message .= "Su edad es: " . $Edad . " \r\n";
 $message .= "Su comida favorita es: " . $ComidaFavorita . " \r\n";
