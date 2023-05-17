@@ -3,12 +3,6 @@ a :visited{color: #560bad;}
 a :hover{color: #00b4d8;}
 a :active{color: #0077b6;} 
 
-
-.a {color:#3a86ff}
-.a :visited{color: #560bad;}
-.a :hover{color: #00b4d8;}
-.a :active{color: #0077b6;}
-
 body{
    background-color: black;
    color: whitesmoke;
